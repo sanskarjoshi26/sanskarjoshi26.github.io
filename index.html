@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dreamy_Art.com
+    </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Trirong|Audiowide|Merienda|Dancing Script&effect=neon|outline|emboss|shadow-multiple">
+    <style>
+        .navbar-nav li.active a {
+            background-color: white;
+            border-radius: 7px;
+        }
+        
+        .navbar-nav li a:hover,
+        .navbar-nav li.dropdown.open a {
+            border-radius: 7px;
+        }
+        
+        a.nav-link {
+            color: black;
+            font-family: Trirong;
+        }
+        
+        .icon-bar {
+            background-color: white;
+        }
+        
+        .body {
+            position: relative;
+        }
+        
+        .slideanim {
+            visibility: hidden;
+        }
+        
+        .slide {
+            animation-name: slide;
+            -webkit-animation-name: slide;
+            animation-duration: 1s;
+            -webkit-animation-duration: 1s;
+            visibility: visible;
+        }
+        
+        @keyframes slide {
+            0% {
+                opacity: 0;
+                transform: translateY(70%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0%);
+            }
+        }
+        
+        @-webkit-keyframes slide {
+            0% {
+                opacity: 0;
+                -webkit-transform: translateY(70%);
+            }
+            100% {
+                opacity: 1;
+                -webkit-transform: translateY(0%);
+            }
+        }
+        
+        @media screen and (max-width: 768px) {
+            .col-sm-4 {
+                text-align: center;
+                margin: 25px 0;
+            }
+            .btn-lg {
+                width: 100%;
+                margin-bottom: 35px;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            .logo {
+                font-size: 150px;
+            }
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class="navbar navbar-light navbar-fixed-top" style="background-color: #db3355;background-image: linear-gradient(120deg,#F60C3B, #E91640,#DC2046,#D02749,#C12E4C);">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" style="color: black">
+          <span class="icon-bar "></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                     
+        </button>
+                <a class="navbar-brand font-effect-outline" href="#" style="font-family:Sofia;font-size:30px;">
+                    Dreamy_Art
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a class="nav-link" href="#section1">HOME</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">CONTACTS<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a target="_blank" href="https://www.instagram.com/dreamy_art_1802/">Instagram</a></li>
+                            <li><a target="_blank" href="919340722958">CALL</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link" href="#section2">ABOUT</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+    <div id="section1" class="container-fluid" style="padding:0px;">
+        <div class="row">
+            <div class="col-lg-12">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+
+                        <div class="item active">
+                            <img class="img-responsive img-rounded" src="pics/art1.jpeg" style="width: 100%; max-height:650px;">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive img-rounded" src="pics/art2.jpeg" style="width: 100%; max-height:650px;">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive img-rounded" src="pics/art3.jpeg" style="width: 100%; max-height:650px;">
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <h2 class="text-left" style="font-family:Merienda;">The Finest Painting </h2>
+        <p><small>Click on the images to enlarge them.</small></p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="pics/paint1.jpeg" target="_blank">
+                        <img src="pics/paint1.jpeg" alt="Lights" style="width:100%">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="pics/paint2.jpeg" target="_blank">
+                        <img src="pics/paint2.jpeg" alt="Nature" style="width:100%">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="pics/pain3.jpeg" target="_blank">
+                        <img src="pics/pain3.jpeg" alt="Fjords" style="width:100%">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <br>
+    <br>
+    <div class="container">
+        <h2 class="text-left" style="font-family:Merienda;">The Artistic Designs </h2>
+        <p><small>Click on the images to enlarge them.</small></p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="pics/paint4.jpeg" target="_blank">
+                        <img src="pics/paint4.jpeg" alt="Lights" style="width:100%">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="pics/paint5.jpeg" target="_blank">
+                        <img src="pics/paint5.jpeg" alt="Nature" style="width:100%">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="pics/pain6.jpeg" target="_blank">
+                        <img src="pics/paint6.jpeg" alt="Fjords" style="width:100%">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <div class="container">
+        <h2 class="text-left" style="font-family:Merienda;">The All Textures </h2>
+        <p><small>Click on the images to enlarge them.</small></p>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="pics/texture1.jpeg" target="_blank">
+                        <img src="pics/texture1.jpeg" alt="Lights" style="width:100%">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="pics/texture2.jpeg" target="_blank">
+                        <img src="pics/texture2.jpeg" alt="Nature" style="width:100%">
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="thumbnail">
+                    <a href="pics/texture3.jpeg" target="_blank">
+                        <img src="pics/texture3.jpeg" alt="Fjords" style="width:100%">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <hr style="border-color: rgb(43, 42, 42);">
+    <br>
+    <div id="section2" class="container-fluid text-center" style="background-color: rgb(212, 59, 90);background-image: linear-gradient(120deg,#F60C3B, #E91640,#DC2046,#D02749,#C12E4C);">
+        <h2 style="font-family:Audiowide;font-weight: bold;color:white">The Artist</h2>
+        <br>
+        <img class="img-circle" src="khushi.jpeg" alt="Bird" height="110px" width="110px" style="border:1px solid rgb(87, 86, 86);">
+        <h4 style="font-family:Dancing Script;font-weight: bold; color:white;">Khushi bagora</h4>
+        <br>
+    </div>
+    <br>
+    <hr style="border-color: rgb(43, 42, 42);">
+    <div class="container-fluid text-center">
+        <h3>www.dreamy_art.com</h3>
+        <p>ContactUs at :- </p>
+        <p>
+            <a target="_blank" href="https://wa.me/919340722958"><img src="logo/whatsapp.png" style="height:40px;width: 40px;"></a>+91-9340722958</p>
+        <a target="_blank" href="https://www.instagram.com/dreamy_art_1802/"><img src="logo/instagram.png" style="height:40px;width: 40px;"></a>
+        <p><small>all the artistic painting design by khushi bagora</small></p>
+    </div>
+    <footer class="container-fluid text-center">
+        <a href="#" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function() {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+
+            $(window).scroll(function() {
+                $(".slideanim").each(function() {
+                    var pos = $(this).offset().top;
+
+                    var winTop = $(window).scrollTop();
+                    if (pos < winTop + 600) {
+                        $(this).addClass("slide");
+                    }
+                });
+            });
+        })
+    </script>
+</body>
+
+</html>
